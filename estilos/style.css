@@ -32,8 +32,9 @@ section#login{
     position:absolute;
     top: 50%;
     left: 50%;
+    overflow: hidden;   
     transform:translate(-50%, -50%);  
-    overflow: hidden;  
+ 
 }
 
 div#imagem{
@@ -88,8 +89,9 @@ div.campo > input{
     width: calc(100% - 41px);
     border: none;
     margin-left: -4px;
-    transform:translateY(-33%);
     height: 35px;   
+    transform:translateY(-33%);
+
 }
 
 div.campo > input:focus-within{
@@ -124,9 +126,7 @@ form > a.botao{
     color: black;
     border: none;
     font-size: 14px;
-    padding-bottom: 4px;
-   
-   
+    padding-bottom: 4px;    
     cursor: pointer;
     
 }
