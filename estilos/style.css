@@ -1,6 +1,5 @@
 @charset "UTF-8";
- 
-/*
+ /*
      Paleta de cores:
      Verder: #49a09d
      Lilas: #5f2c82
@@ -74,23 +73,29 @@ form > div.campo{
     height: 30px;
     margin: 5px 0px;
     padding-bottom: 5px;
+    border-radius: 8px;
 }
 
 form> div.campo> span{
     font-size: 2.2em;
     width: 40px;
-   
+    margin-left: 2px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
     background-color: #5f2c82;
     color: white;
    }
 
 div.campo > input{
     background-color: #9fe9e6;
-    width: calc(100% - 41px);
+    width: calc(100% - 45px);
     border: none;
     margin-left: -4px;
-    height: 35px;   
-    transform:translateY(-33%);
+    height: 32px;   
+    border-radius: 8px;
+    border: 1px solid #5f2c82;
+    transform:translateY(-35%);
+
 
 }
 
