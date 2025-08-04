@@ -77,8 +77,8 @@ form > div.campo{
 }
 
 form> div.campo> span{
-    font-size: 2.2em;
-    width: 40px;
+    font-size: 2.1em;
+    width: 38px;
     margin-left: 2px;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
@@ -88,10 +88,9 @@ form> div.campo> span{
 
 div.campo > input{
     background-color: #9fe9e6;
-    width: calc(100% - 45px);
-    border: none;
-    margin-left: -4px;
-    height: 32px;   
+    width: calc(100% - 49px);   
+    margin-left: -2px;
+    height: 28px;   
     border-radius: 8px;
     border: 1px solid #5f2c82;
     transform:translateY(-35%);
